@@ -1,0 +1,9 @@
+body {
+    background-color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center !important;
+}
