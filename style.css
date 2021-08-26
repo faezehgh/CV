@@ -1,5 +1,6 @@
 body {
     background-color: white !important;
+   /* height: 100vh;*/
 }
 
 .nav-link {
@@ -7,3 +8,20 @@ body {
     font-family: 'Times New Roman', Times, serif;
     text-align: center !important;
 }
+/*start menu CSS*/
+.menu>ul{
+    list-style: none;
+}
+.menu>ul>li{
+
+}
+.menu-item:hover{
+    color: #0a53be !important;
+
+}
+.menu-item{
+    font-weight: bold !important;
+    color: gray !important;
+}
+/*END menu CSS*/
+
