@@ -1,6 +1,6 @@
 body {
     background-color: white !important;
-   /* height: 100vh;*/
+   /*height: 100vh;*/
 }
 
 .nav-link {
@@ -25,3 +25,41 @@ body {
 }
 /*END menu CSS*/
 
+/*start profile*/
+.profile-photo{
+    border-radius: 30px;
+}
+.btn-creative{
+    background-color: lightgray !important;;
+    border-radius: 50px !important;
+}
+.nav-profile{
+    border-radius: 40px;
+}
+.btn-download{
+    border-radius: 30px;
+    border: none;
+    background-color: #304CFD;
+    color: white;
+    width: 180px;
+    height: 50px;
+}
+.contact-item .font-icon{
+    font-size: 1.125rem;
+    margin-right: 0.875rem;
+    text-align: center;
+}
+.contact>ul{
+    list-style: none;
+}
+/*end profile*/
+
+/*start About me*/
+.about-me{
+    background-color: white;
+}
+h1{
+    color: #44566C;
+    margin-top: 1.5rem;
+}
+/*End About me*/
