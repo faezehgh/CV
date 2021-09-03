@@ -1,5 +1,16 @@
+/*start icon css*/
+@import url(../icon/style.css);
+@font-face {
+    src: url("../font/inter_font/Inter-Light.ttf");
+    font-family: inter;
+}
+/*End icon css*/
 body {
-    background-color: white !important;
+    background: url("../img/Bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: #F0F0F6 !important;
+    font-family: inter !important;
+
    /*height: 100vh;*/
 }
 
@@ -9,10 +20,24 @@ body {
     text-align: center !important;
 }
 /*start menu CSS*/
+.menu>ul:before{
+    background-color: #f0f0f6;
+    content: '';
+    background-image: url(../img/gb-menu.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5rem;
+    top: 0;
+    left: -7.75rem;
+    width: 8.4375rem;
+}
 .menu>ul{
+    border-radius: 0 40px 0 0;
     list-style: none;
+    background-color: white;
 }
 .menu>ul>li{
+    padding: 20px 10px;
 
 }
 .menu-item:hover{
@@ -22,6 +47,9 @@ body {
 .menu-item{
     font-weight: bold !important;
     color: gray !important;
+}
+.bg-menu{
+   /* background-color: #F0F0F6 !important;*/
 }
 /*END menu CSS*/
 
@@ -51,12 +79,18 @@ body {
 }
 .contact>ul{
     list-style: none;
+    font-size: 17px;
+    color: #44566C !important;
 }
 /*end profile*/
 
 /*start About me*/
-.about-me{
+.about-me {
     background-color: white;
+    border-radius: 40px !important;
+}
+.row{
+    border-radius: 40px 0px 40px 40px !important;
 }
 h1{
     color: #44566C;
